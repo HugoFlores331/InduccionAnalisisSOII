@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <section class="contenido">
+            <h1>Crear Empleado</h1>
+
+                <h3>Datos Personales</h3>
+
+                    <input type="text" name="cui" id="cui" placeholder="Ingrese Cui">
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingrese sus Nombres Completos">
+                    <input type="text" name="apellido" id="apellido" placeholder="Ingrese sus Apellidos Completos">
+
+                    <label for="text">Ingrese su Fecha de Nacimiento</label>
+                    <input type="date" name="fechaNacimiento" id="fechaNacimiento">
+
+
+                    <input type="email" name="correo" id="corre" placeholder="Ingrese su Correo Electronico">
+                    <input type="number" name="telefono" id="telefono" placeholder="Ingrese su Numero de Telefono">
+
+                    <select name="departamento" id="departamento">
+                        <option value="null">SELECCIONE EL DEPARTAMENTO</option>
+                        <option value="ALTA VERAPAZ">ALTA VERAPAZ</option>
+                        <option value="BAJA VERAPAZ">BAJA VERAPAZ</option>
+                        <option value="CHIMALTENANGO">CHIMALTENANGO</option>
+                        <option value="CHIQUIMULA">CHIQUIMULA</option>
+                        <option value="EL PROGRESO">EL PROGRESO</option>
+                        <option value="ESCUINTLA">ESCUINTLA</option>
+                        <option value="GUATEMALA">GUATEMALA</option>
+                        <option value="HUEHUETENANGO">HUEHUETENANGO</option>
+                        <option value="IZABAL">IZABAL</option>
+                        <option value="JALAPA">JALAPA</option>
+                        <option value="JUTIAPA">JUTIAPA</option>
+                        <option value="PETÉN">PETÉN</option>
+                        <option value="QUETZALTENANGO">QUETZALTENANGO</option>
+                        <option value="QUICHÉ">QUICHÉ</option>
+                        <option value="RETALHULEU">RETALHULEU</option>
+                        <option value="SACATEPÉQUEZ">SACATEPÉQUEZ</option>
+                        <option value="SAN MARCOS">SAN MARCOS</option>
+                        <option value="SANTA ROSA">SANTA ROSA</option>
+                        <option value="SOLOLÁ">SOLOLÁ</option>
+                        <option value="SUCHITEPÉQUEZ">SUCHITEPÉQUEZ</option>
+                        <option value="TOTONICAPÁN">TOTONICAPÁN</option>
+                        <option value="ZACAPA">ZACAPA</option>
+                    </select>
+                
+                    <input type="text" name="municipio" id="municipio" placeholder="Ingrese su municipio">
+                    <input type="text" name="direccion" id="direccion" placeholder="Ingrese su direccion Exacta">
+
+                <h3>Vacante</h3>
+
+                    <label for="text">Ingrese la Fecha de Inicio Laboral</label>
+                    <input type="date" name="fechaInicio" id="fechaInicio">
+
+                    <select name="depto" id="depto">
+                        <option value="0">SELECCION EL DEPARTAMENTO QUE APLICA</option>
+                        <option value="1">1.</option>
+                    </select>
+
+                    <select name="puesto" id="puesto">
+                        <option value="0">SELECCIONE EL PUESTO QUE APLICA</option>
+                        <option value="1">1.</option>
+                    </select>
+
+                    <label for="text">Ingrese su vitae</label>
+                    <input type="file" name="vitae" id="vitae" accept=".pdf">
+
+                <button type="button">
+                    <img src="#">
+                    Guardar
+                </button>
+        </section>
+    </body>
+
+</html>
