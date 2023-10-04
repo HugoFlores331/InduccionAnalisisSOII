@@ -1,0 +1,107 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top, lime, 20%, cyan);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    min-height: 100vh; /* Establecer la altura mínima del cuerpo para abarcar toda la pantalla */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente el contenido de la página */
+    align-items: center; /* Centra horizontal y verticalmente el contenido de la página */
+}
+
+header {
+    background-image: linear-gradient(180deg, #505467 0, #1f3259 50%, #00154b 100%);;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: absolute;
+    top: 0; /* Posiciona el header en la parte superior */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a.active {
+    color: lime; /* Color de resaltado para la página activa */
+}
+
+nav ul li a:hover {
+    color: lime; /* Cambio de color al pasar el mouse */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-image: linear-gradient(180deg, #505467 0, #1f3259 50%, #00154b 100%); /* Elimina cualquier fondo del footer */
+    color: #fff; /* Cambia el color del texto del footer */
+    font-style: italic;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color:none; /* Fondo semi-transparente para legibilidad del texto */
+    padding: 20px;
+    border-radius: 10px;
+    flex-grow: 1; /* Hace que el contenido principal se expanda para ocupar el espacio restante */
+}
+
+.welcome-text {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Estilos específicos para la página de responsabilidades */
+.responsabilidades-content {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.responsabilidades-content h2 {
+    margin-top: 20px;
+}
+
+.responsabilidades-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.responsabilidades-content li {
+    margin: 10px 0;
+}
