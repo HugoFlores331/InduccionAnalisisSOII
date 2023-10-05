@@ -1,0 +1,50 @@
+body{
+    background-color:darkgray;
+    color: antiquewhite;
+    justify-content: center;
+    display:flex;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.login{
+    
+    display:inline-block;
+    text-align: center;
+    margin-top: 100px;
+}
+
+input{
+    text-align: center;
+    display:block;
+    margin-left:160px;
+    margin-top: 20px;
+    border-radius:5px;
+}
+
+button{
+    width: 100px;
+    height: 35px;
+    margin-top:20px;
+    border-radius:12px;
+}
+
+button:hover{
+    color: antiquewhite;
+    background-color: black;
+}
+
+.olvide{
+    text-align: center;
+    display:block;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;;
+}
+
+a:hover{
+    color: white;
+}
