@@ -16,10 +16,10 @@ body {
 }
 
 header {
-    background-image: linear-gradient(180deg, #505467 0, #1f3259 50%, #00154b 100%);;
+    background-color: black;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
     width: 100%;
     position: absolute;
     top: 0; /* Posiciona el header en la parte superior */
@@ -41,6 +41,7 @@ nav ul li a {
     color: #fff;
     font-weight: bold;
     transition: color 0.3s;
+    font-size:large;
 }
 
 nav ul li a.active {
@@ -56,7 +57,7 @@ main {
 }
 
 footer {
-    background-image: linear-gradient(180deg, #505467 0, #1f3259 50%, #00154b 100%); /* Elimina cualquier fondo del footer */
+    background-color: black;
     color: #fff; /* Cambia el color del texto del footer */
     font-style: italic;
     text-align: center;
@@ -81,8 +82,8 @@ footer {
 .welcome-text {
     text-align: center;
     font-size: 34px;
-    margin-bottom: 20px;
-    color: #fff;
+    margin-top: -60px;
+    color: #000;
 }
 
 /* Estilos específicos para la sección de Notificaciones */
@@ -91,11 +92,11 @@ footer {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .notification-box {
-    border: 1px solid #ccc;
+    border: 1px solid #;
     max-height: 200px;
     overflow-y: auto;
     padding: 10px;

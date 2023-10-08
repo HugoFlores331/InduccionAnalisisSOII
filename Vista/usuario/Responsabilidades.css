@@ -16,10 +16,10 @@ body {
 }
 
 header {
-    background-image: linear-gradient(180deg, #505467 0, #1f3259 50%, #00154b 100%);;
+    background-color: black;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
     width: 100%;
     position: absolute;
     top: 0; /* Posiciona el header en la parte superior */
@@ -41,6 +41,7 @@ nav ul li a {
     color: #fff;
     font-weight: bold;
     transition: color 0.3s;
+    font-size:large;
 }
 
 nav ul li a.active {
@@ -56,7 +57,7 @@ main {
 }
 
 footer {
-    background-image: linear-gradient(180deg, #505467 0, #1f3259 50%, #00154b 100%); /* Elimina cualquier fondo del footer */
+    background-color: black;
     color: #fff; /* Cambia el color del texto del footer */
     font-style: italic;
     text-align: center;
@@ -94,7 +95,7 @@ footer {
 }
 
 .responsabilidades-content h2 {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .responsabilidades-content ul {
@@ -104,4 +105,9 @@ footer {
 
 .responsabilidades-content li {
     margin: 10px 0;
+}
+
+.section-title {
+    color: #000;
+    margin-top: -40px;
 }
