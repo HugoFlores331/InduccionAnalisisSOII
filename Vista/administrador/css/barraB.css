@@ -4,5 +4,17 @@
     height: 80px;
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
+
+.c{
+    margin-top: 15px;
+    transition: transform .1s;
+}
+
+.c:hover{
+    color:#C2F140;
+    transform: scale(1.15); 
+}
+
 
