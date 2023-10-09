@@ -1,0 +1,8 @@
+.barraBaja{
+    color: white;
+    background-color: #333;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
