@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+
+.titulo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+h1,h3,label{
+    color: white;
+}
+
+.contenido{
+    margin-top:20px;
+    justify-content: center;
+    display: flex;
+    margin-bottom:10px;
+}
+
+
+.ce1{
+    margin-top: 10px;
+    text-align:left;
+}
+
+.ce1 li,
+.ce2 li{
+    margin-top:10px;
+}
+
+input,select{
+    text-align: center;
+    width: 18rem;
+}
+
+.ce2{
+    margin-top:10px;
+    text-align:left;
+}
+
+.btn{
+    display: flex;
+    margin-bottom:2rem;
+    justify-content: center;
+}

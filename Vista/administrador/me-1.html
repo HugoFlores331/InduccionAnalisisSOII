@@ -4,78 +4,166 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/barraA.css">
+        <link rel="stylesheet" href="css/barraB.css">
+        <link rel="stylesheet" href="css/me-1.css">
         <title>Document</title>
     </head>
 
     <body>
-        <section class="contenido">
-            <h1>Crear Empleado</h1>
 
-                <h3>Datos Personales</h3>
-
-                    <input type="text" name="cui" id="cui" placeholder="Ingrese Cui">
-                    <input type="text" name="nombre" id="nombre" placeholder="Ingrese sus Nombres Completos">
-                    <input type="text" name="apellido" id="apellido" placeholder="Ingrese sus Apellidos Completos">
-
-                    <label for="text">Ingrese su Fecha de Nacimiento</label>
-                    <input type="date" name="fechaNacimiento" id="fechaNacimiento">
-
-
-                    <input type="email" name="correo" id="corre" placeholder="Ingrese su Correo Electronico">
-                    <input type="number" name="telefono" id="telefono" placeholder="Ingrese su Numero de Telefono">
-
-                    <select name="departamento" id="departamento">
-                        <option value="null">SELECCIONE EL DEPARTAMENTO</option>
-                        <option value="ALTA VERAPAZ">ALTA VERAPAZ</option>
-                        <option value="BAJA VERAPAZ">BAJA VERAPAZ</option>
-                        <option value="CHIMALTENANGO">CHIMALTENANGO</option>
-                        <option value="CHIQUIMULA">CHIQUIMULA</option>
-                        <option value="EL PROGRESO">EL PROGRESO</option>
-                        <option value="ESCUINTLA">ESCUINTLA</option>
-                        <option value="GUATEMALA">GUATEMALA</option>
-                        <option value="HUEHUETENANGO">HUEHUETENANGO</option>
-                        <option value="IZABAL">IZABAL</option>
-                        <option value="JALAPA">JALAPA</option>
-                        <option value="JUTIAPA">JUTIAPA</option>
-                        <option value="PETÉN">PETÉN</option>
-                        <option value="QUETZALTENANGO">QUETZALTENANGO</option>
-                        <option value="QUICHÉ">QUICHÉ</option>
-                        <option value="RETALHULEU">RETALHULEU</option>
-                        <option value="SACATEPÉQUEZ">SACATEPÉQUEZ</option>
-                        <option value="SAN MARCOS">SAN MARCOS</option>
-                        <option value="SANTA ROSA">SANTA ROSA</option>
-                        <option value="SOLOLÁ">SOLOLÁ</option>
-                        <option value="SUCHITEPÉQUEZ">SUCHITEPÉQUEZ</option>
-                        <option value="TOTONICAPÁN">TOTONICAPÁN</option>
-                        <option value="ZACAPA">ZACAPA</option>
-                    </select>
+        <header class="barra">
+            <ul class="centro">
+                <li>
+                    <a href="mPuesto.html">
+                        PUESTO
+                    </a>
+                </li>
                 
-                    <input type="text" name="municipio" id="municipio" placeholder="Ingrese su municipio">
-                    <input type="text" name="direccion" id="direccion" placeholder="Ingrese su direccion Exacta">
+                <li >
+                    <a href="mInduccion.html">
+                        INDUCCIONES
+                    </a>
+                </li>
 
-                <h3>Vacante</h3>
+                <li>
+                    <a href="mEmpleado.html">
+                        EMPLEADO
+                    </a>
+                </li>
+            </ul>
+            
+            <ul class="derecha">
+                <li>
+                    <a href="../../index.html">
+                        <img src="iconos/cerrar-sesion.png" width="40">
+                    </a>
+                </li>
+            </ul>
+        </header>
 
-                    <label for="text">Ingrese la Fecha de Inicio Laboral</label>
-                    <input type="date" name="fechaInicio" id="fechaInicio">
+        <div class="titulo">
+            <h1>Crear Empleado</h1>
+        </div>
 
-                    <select name="depto" id="depto">
-                        <option value="0">SELECCION EL DEPARTAMENTO QUE APLICA</option>
-                        <option value="1">1.</option>
-                    </select>
+        <section class="contenido">
+                <ul class="ce1">
 
-                    <select name="puesto" id="puesto">
-                        <option value="0">SELECCIONE EL PUESTO QUE APLICA</option>
-                        <option value="1">1.</option>
-                    </select>
+                    <h3>Datos Personales</h3>
 
-                    <label for="text">Ingrese su vitae</label>
-                    <input type="file" name="vitae" id="vitae" accept=".pdf">
+                        <li>
+                            <input type="text" name="cui" id="cui" placeholder="Ingrese Cui">
+                        </li>
 
-                <button type="button">
-                    <img src="#">
-                    Guardar
-                </button>
+                        <li>
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombres Completos">
+                        </li>
+
+                        <li>
+                            <input type="text" name="apellido" id="apellido" placeholder="Apellidos Completos">
+                        </li>
+
+                        <li>
+                            <label for="text">Fecha de Nacimiento</label>
+                        </li>
+
+                        <li>
+                            <input type="date" name="fechaNacimiento" id="fechaNacimiento">
+                        </li>
+
+                        <li>                            
+                            <input type="email" name="correo" id="corre" placeholder="Correo Electronico">
+                        </li>
+
+                        <li>
+                            <input type="number" name="telefono" id="telefono" placeholder="Numero de Telefono">
+                        </li>
+
+                        <li>
+                            <select name="departamento" id="departamento">
+                                <option value="null">DEPARTAMENTO</option>
+                                <option value="ALTA VERAPAZ">ALTA VERAPAZ</option>
+                                <option value="BAJA VERAPAZ">BAJA VERAPAZ</option>
+                                <option value="CHIMALTENANGO">CHIMALTENANGO</option>
+                                <option value="CHIQUIMULA">CHIQUIMULA</option>
+                                <option value="EL PROGRESO">EL PROGRESO</option>
+                                <option value="ESCUINTLA">ESCUINTLA</option>
+                                <option value="GUATEMALA">GUATEMALA</option>
+                                <option value="HUEHUETENANGO">HUEHUETENANGO</option>
+                                <option value="IZABAL">IZABAL</option>
+                                <option value="JALAPA">JALAPA</option>
+                                <option value="JUTIAPA">JUTIAPA</option>
+                                <option value="PETÉN">PETÉN</option>
+                                <option value="QUETZALTENANGO">QUETZALTENANGO</option>
+                                <option value="QUICHÉ">QUICHÉ</option>
+                                <option value="RETALHULEU">RETALHULEU</option>
+                                <option value="SACATEPÉQUEZ">SACATEPÉQUEZ</option>
+                                <option value="SAN MARCOS">SAN MARCOS</option>
+                                <option value="SANTA ROSA">SANTA ROSA</option>
+                                <option value="SOLOLÁ">SOLOLÁ</option>
+                                <option value="SUCHITEPÉQUEZ">SUCHITEPÉQUEZ</option>
+                                <option value="TOTONICAPÁN">TOTONICAPÁN</option>
+                                <option value="ZACAPA">ZACAPA</option>
+                            </select>
+                        </li>
+
+                        <li>
+                            <input type="text" name="municipio" id="municipio" placeholder="Municipio"></li>
+                        </li>
+
+                        <li>
+                            <input type="text" name="direccion" id="direccion" placeholder="Direccion Exacta">
+                        </li>
+                </ul>
+
+                <ul class="ce2">
+                    <h3>Vacante</h3>
+
+                        <li>
+                            <label for="text">Fecha de Inicio Laboral</label>
+                        </li>
+
+                        <li>
+                            <input type="date" name="fechaInicio" id="fechaInicio">
+                        </li>
+
+                        <li>
+                            <select name="depto" id="depto">
+                                <option value="0">DEPARTAMENTO</option>
+                                <option value="1">1.</option>
+                            </select>
+                        </li>
+
+                        <li>
+                            <select name="puesto" id="puesto">
+                                <option value="0">PUESTO</option>
+                                <option value="1">1.</option>
+                            </select>
+                        </li>
+
+                        <li>
+                            <label for="text">Vitae</label>
+                        </li>
+
+                        <li>
+                            <input type="file" name="vitae" id="vitae" accept=".pdf">
+                        </li>
+                </ul>
         </section>
+
+        <div class="btn">
+            <button  class =""type="button">
+                <img src="#">
+                Guardar
+            </button>
+        </div>
+
+        <footer class="barraBaja">
+            <div class="c">
+                <p> PROYECTO DE ANALISIS DE SISTEMAS II </p>
+            </div>
+        </footer>
+
     </body>
 
 </html>
