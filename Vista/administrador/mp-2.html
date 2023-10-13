@@ -3,28 +3,74 @@
 
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="stylesheet" href="css/barraA.css">
+        <link rel="stylesheet" href="css/barraB.css">
+        <link rel="stylesheet" href="css/mp-2.css">
     </head>
 
     <body>
 
+        <header class="barra">
+            <ul class="centro">
+                <li>
+                    <a href="mPuesto.html">
+                        PUESTO
+                    </a>
+                </li>
+                
+                <li >
+                    <a href="mInduccion.html">
+                        INDUCCIONES
+                    </a>
+                </li>
 
-       <section>
-
-        <h1>MOSTRAR</h1> 
-
-            <select name="busqueda" id="busqueda" class="busqueda">
-                <option value="0">Seleccion La Opcion</option>
-                <option value="1">DEPARTAMENTOS Y PUESTOS</option>
-                <option value="2">DEPARTAMENTOS</option>
-                <option value="3">PUESTOS</option>
-            </select>    
+                <li>
+                    <a href="mEmpleado.html">
+                        EMPLEADO
+                    </a>
+                </li>
+            </ul>
             
-            <button type="button">
-                <img src="#">
-                BUSCAR
-            </button>
+            <ul class="derecha">
+                <li>
+                    <a href="../../index.html">
+                        <img src="iconos/cerrar-sesion.png" width="40">
+                    </a>
+                </li>
+            </ul>
+        </header>
+
+       <section class="cbusqueda">
+
+            <ul>
+                <li>
+                    <select name="busqueda" id="busqueda" class="busqueda">
+                        <option value="0">Seleccion La Opcion</option>
+                        <option value="1">DEPARTAMENTOS Y PUESTOS</option>
+                        <option value="2">DEPARTAMENTOS</option>
+                        <option value="3">PUESTOS</option>
+                    </select>   
+                </li> 
+                
+                <li>
+                    <button type="button">
+                        <img src="iconos/busqueda.png" width="20%">
+                        BUSCAR
+                    </button>
+                </li>
+            </ul>
        </section>
+
+       <section class="ver">
+            <h1>MOSTRAR</h1> 
+       </section>
+
+       <footer class="barraBaja">
+            <div class="c">
+                <p> PROYECTO DE ANALISIS DE SISTEMAS II </p>
+            </div>
+        </footer>
+
     </body>
 </html>

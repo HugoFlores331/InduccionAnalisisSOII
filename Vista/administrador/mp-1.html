@@ -2,25 +2,73 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Crear Puesto/Empleado</title>
+        <link rel="stylesheet" href="css/barraA.css">
+        <link rel="stylesheet" href="css/barraB.css">
+        <link rel="stylesheet" href="css/mp-1.css">
     </head>
 
     <body>
+
+        <header class="barra">
+            <ul class="centro">
+                <li>
+                    <a href="mPuesto.html">
+                        PUESTO
+                    </a>
+                </li>
+                
+                <li >
+                    <a href="mInduccion.html">
+                        INDUCCIONES
+                    </a>
+                </li>
+
+                <li>
+                    <a href="mEmpleado.html">
+                        EMPLEADO
+                    </a>
+                </li>
+            </ul>
+            
+            <ul class="derecha">
+                <li>
+                    <a href="../../index.html">
+                        <img src="iconos/cerrar-sesion.png" width="40">
+                    </a>
+                </li>
+            </ul>
+        </header>
+
         <section class="contenido">
             <h1>Crear Puesto o Empleado</h1>
 
+
             <div class="rol">
-                <select name="fromRol" id="fromRol">
-                    <option value="1">Puesto</option>
-                    <option value="2">Departamento</option>
-                </select>
                 <input type="text" name="rol" id="rol" placeholder="Ingrese Puesto o Departamento">
             </div>
 
-            <button type="button">
-                GUARDAR
-            </button>
+            <div class="rol">
+                <select name="fromRol" id="fromRol">
+                    <option value="0">SELECIONE UNA OPCION</option>
+                    <option value="1">PUESTO</option>
+                    <option value="2">DEPARTAMENTO</option>
+                </select>
+            </div>
+
+            <div class="btn">
+                <button type="button">
+                    <img src="iconos/guardar.png" width="10%">
+                    GUARDAR
+                </button>
+            </div>
         </section>
+
+        <footer class="barraBaja">
+            <div class="c">
+                <p> PROYECTO DE ANALISIS DE SISTEMAS II </p>
+            </div>
+        </footer>
+
     </body>
 </html>
