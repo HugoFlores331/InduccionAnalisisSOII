@@ -10,12 +10,12 @@ ul{
 
 .centro{
  display: flex;
- margin-left:270px;
+ margin-left:300px;
 }
 
 .centro li{
     display: inline-flex;
-    margin-left: 100px;
+    margin-left: 120px;
 }
 
 .centro a{
@@ -33,7 +33,7 @@ ul{
 
 .derecha{
     display: flex;
-    margin-left: 350px;
+    margin-left: 400px;
 }
 
 .derecha img{
