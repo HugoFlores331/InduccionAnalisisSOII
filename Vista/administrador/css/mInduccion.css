@@ -27,6 +27,7 @@ a{
     margin-left: 20px;
     margin-bottom:40px;
     transition: transform .2s;
+    border-radius: 3rem;
 }
 
 .mi:hover{
