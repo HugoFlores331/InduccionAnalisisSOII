@@ -11,7 +11,8 @@ ul{
 }
 
 li{
-    margin-right: 2rem;
+    margin-top: 10px;
+    margin-left: 2rem;
 }
 
 li select{
