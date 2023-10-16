@@ -1,0 +1,56 @@
+body{
+    color: white;
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+}
+
+.c1{
+    display: flex;
+    justify-content: center;
+}
+
+.l1{
+    margin-top:1.5rem ;
+}
+
+.l1 li,
+.l2 li{
+    margin-bottom: 10px;
+}
+
+.l1 input,
+.l1 label{
+    width: 12rem;
+    text-align:left;
+    display: flex;
+}
+
+.l2 select{
+    width: 15rem;
+    text-align: left;
+}
+
+.l2 label{
+    text-align: center;
+    display: flex;
+    width:12rem;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+button{
+    transition: 0.1s;
+}
+
+button:hover{
+    color: white;
+    background-color: forestgreen;
+    transform: scale(1.2);
+}

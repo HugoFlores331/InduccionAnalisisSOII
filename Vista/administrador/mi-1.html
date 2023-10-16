@@ -3,45 +3,118 @@
 
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="stylesheet" href="css/barraA.css">
+        <link rel="stylesheet" href="css/barraB.css">
+        <link rel="stylesheet" href="css/mi-1.css">
     </head>
 
     <body>
-        <section class="contenido">
-            <h1>Crear Induccion</h1>
 
-            <input type="text" name="nameInduccion" id="nameInduccion" placeholder="Ingrese nombre de la Induccion">
+        <header class="barra">
+            <ul class="centro">
+                <li>
+                    <a href="mPuesto.html">
+                        PUESTO
+                    </a>
+                </li>
+                
+                <li >
+                    <a href="mInduccion.html">
+                        INDUCCIONES
+                    </a>
+                </li>
+
+                <li>
+                    <a href="mEmpleado.html">
+                        EMPLEADO
+                    </a>
+                </li>
+            </ul>
             
-            <label for="text">Ingrese Fecha y Hora de Inicio</label>
-            <input type="datetime-local" name="inicioInduccion" id="inicioInduccion">
-            
-            <label for="text">Ingrese Fecha y Hora de Finalizacion</label>
-            <input type="datetime-local" name="finalInduccion" id="finalInduccion">
+            <ul class="derecha">
+                <li>
+                    <a href="../../index.html">
+                        <img src="iconos/cerrar-sesion.png" width="40">
+                    </a>
+                </li>
+            </ul>
+        </header>
 
-            
-            <select name="opDepartamento" id="opDepartamento">
-                <option value="0">SELECCIONE DEPARTAMENTO</option>
-                <option value="1">1.</option>
-                <option value="2">2.</option>
-                <option value="3">3.</option>
-            </select>
+        <h1>Crear Induccion</h1>
 
-            <select name="opPuesto" id="opPuesto">
-                <option value="0">SELECCIONE PUESTO</option>
-                <option value="1">1.</option>
-                <option value="2">2.</option>
-                <option value="3">3.</option>
-            </select>
+        <section class="c1">
+            <ul class="l1">
+                <li>
+                    <input type="text" name="nameInduccion" id="nameInduccion" placeholder="Nombre de la Induccion">
+                </li>
 
-            <label for="text">Ingrese Documento de Induccion</label>
-            <input type="file" name="dInduccion" id="dInduccion" accept=".pdf">
+                <li>  
+                    <label for="text">Fecha y Hora de Inicio</label>
+                </li>
 
-            <label for="text">Ingrese Encuesta de Induccion</label>
-            <input type="file" name="eInduccion" id="eInduccion" accept=".docx">
+                <li>
+                    <input type="datetime-local" name="inicioInduccion" id="inicioInduccion">
+                </li>
 
-            <button type="button">GENERAR</button>
-            
+                <li>
+                    <label for="text">Fecha y Hora de Finalizacion</label>
+                </li>
+
+                <li>
+                    <input type="datetime-local" name="finalInduccion" id="finalInduccion">
+                </li>
+            </ul>
+
+                <ul class="l2">
+                    <li>
+                        <select name="opDepartamento" id="opDepartamento">
+                            <option value="0">SELECCIONE DEPARTAMENTO</option>
+                            <option value="1">1.</option>
+                            <option value="2">2.</option>
+                            <option value="3">3.</option>
+                        </select>
+                    </li>
+
+                    <li>
+                        <select name="opPuesto" id="opPuesto">
+                            <option value="0">SELECCIONE PUESTO</option>
+                            <option value="1">1.</option>
+                            <option value="2">2.</option>
+                            <option value="3">3.</option>
+                        </select>
+                    </li>
+
+                    <li>
+                        <label for="text">Documento de Induccion</label>
+                    </li>
+
+                    <li>
+                        <input type="file" name="dInduccion" id="dInduccion" accept=".pdf">
+                    </li>
+
+                    <li>
+                        <label for="text">Encuesta de Induccion</label>
+                    </li>
+
+                    <li>
+                        <input type="file" name="eInduccion" id="eInduccion" accept=".docx">
+                    </li>
+            </ul>
         </section>
+
+        <div class="btn">
+            <button type="button">
+                <img src="iconos/guardar.png" width="10%">
+                GENERAR
+            </button>
+        </div>
+
+        <footer class="barraBaja">
+            <div class="c">
+                <p> PROYECTO DE ANALISIS DE SISTEMAS II </p>
+            </div>
+        </footer>
+
     </body>
 </html>
