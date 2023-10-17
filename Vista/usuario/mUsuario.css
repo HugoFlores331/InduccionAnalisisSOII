@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to top, lime, 20%, cyan);
+    background: black;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-color: black;
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -57,7 +57,7 @@ main {
 }
 
 footer {
-    background-color: black;
+    background-color: #333;
     color: #fff; /* Cambia el color del texto del footer */
     font-style: italic;
     text-align: center;
@@ -90,5 +90,5 @@ footer {
     text-align: center;
     font-size: 54px;
     margin-bottom: 80px;
-    color: #000000;
+    color: #fff;
 }
