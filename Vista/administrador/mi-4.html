@@ -1,11 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>MOSTRAR</h1>
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/barraA.css">
+        <link rel="stylesheet" href="css/barraB.css">
+        <link rel="stylesheet" href="css/mi-4.css">
+    </head>
+
+    <body>
+
+        <header class="barra">
+            <ul class="centro">
+                <li>
+                    <a href="mPuesto.html">
+                        PUESTO
+                    </a>
+                </li>
+                
+                <li >
+                    <a href="mInduccion.html">
+                        INDUCCIONES
+                    </a>
+                </li>
+
+                <li>
+                    <a href="mEmpleado.html">
+                        EMPLEADO
+                    </a>
+                </li>
+            </ul>
+            
+            <ul class="derecha">
+                <li>
+                    <a href="../../index.html">
+                        <img src="iconos/cerrar-sesion.png" width="40">
+                    </a>
+                </li>
+            </ul>
+        </header>
+
+       <section class="cbusqueda">
+
+            <ul>
+                <li>
+                    <select name="busqueda" id="busqueda" class="busqueda">
+                        <option value="0">Seleccion La Opcion</option>
+                        <option value="1">DEPARTAMENTOS Y PUESTOS</option>
+                        <option value="2">DEPARTAMENTOS</option>
+                        <option value="3">PUESTOS</option>
+                    </select>   
+                </li> 
+                
+                <li>
+                    <button type="button">
+                        <img src="iconos/busqueda.png" width="20%">
+                        BUSCAR
+                    </button>
+                </li>
+            </ul>
+       </section>
+
+       <section class="resultados">
+        <table>
+            <thead>
+                <tr>
+                    <th>Resultados de la Búsqueda</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fila 1</td>
+                </tr>
+                <tr>
+                    <td>Fila 2</td>
+                </tr>
+                <tr>
+                    <td>Fila 3</td>
+                </tr>
+                <tr>
+                    <td>Fila 4</td>
+                </tr>
+                <tr>
+                    <td>Fila 5</td>
+                </tr>
+                <tr>
+                    <td>Fila 6</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+       <footer class="barraBaja">
+            <div class="c">
+                <p> PROYECTO DE ANALISIS DE SISTEMAS II </p>
+            </div>
+        </footer>
+
+    </body>
 </html>

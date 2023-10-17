@@ -21,6 +21,7 @@ li select{
     text-align: center;
     border-radius: 2rem;
     transition: transform .2s;
+    
 }
 
 li select:hover{
@@ -34,16 +35,56 @@ li button{
     justify-content: center;
     border-radius: 2rem;
     transition: transform .1s;
+    
 }
 
 li button:hover{
     background-color:azure;
     transform: scale(1.2); 
+    width: 70%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 40px;
 }
 .ver{
     display: flex;
     justify-content: center;
 }
+
+ /* Estilos para la tabla */
+ .resultados table {
+    width: 70%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+.resultados th, .resultados td {
+    padding: 12px; /* Aumentamos el espacio interno de las celdas */
+    text-align: left;
+    border:1px solid #ddd;
+}
+
+.resultados th {
+    
+    color: white;
+}
+
+.resultados td {
+  
+    color: white;
+}
+
+
+.resultados tr:nth-child(even) {
+    
+}
+
+.resultados tr:hover {
+    
+    color: white;
+}
+
 footer{
     font-style: italic;
     text-align: center;

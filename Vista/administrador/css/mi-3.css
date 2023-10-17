@@ -1,0 +1,39 @@
+.contenido {
+    text-align: center; /* Centramos el contenido */
+    padding: 20px; /* Añadimos espaciado alrededor del contenido */
+}
+
+h1 {
+    font-size: 24px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #35495E; /* Color de fondo del botón */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #63A0D4; /* Cambio de color al pasar el cursor sobre el botón */
+}
+footer{
+    font-style: italic;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
