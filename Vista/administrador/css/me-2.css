@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    margin-top: 10px;
+    margin-left: 2rem;
+}
+
+li select{
+    width: 15rem;
+    height: 1.8rem;
+    text-align: center;
+    border-radius: 2rem;
+    transition: transform .2s;
+}
+
+li select:hover{
+    background-color:azure;
+    transform: scale(1.05); 
+}
+
+li button{
+    width: 7rem;
+    text-align: center;
+    justify-content: center;
+    border-radius: 2rem;
+    transition: transform .1s;
+}
+
+li button:hover{
+    background-color:azure;
+    transform: scale(1.2); 
+}
+.ver{
+    display: flex;
+    justify-content: center;
+}
