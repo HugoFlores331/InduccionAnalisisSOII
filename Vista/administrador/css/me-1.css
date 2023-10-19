@@ -34,6 +34,7 @@ h1,h3,label{
 input,select{
     text-align: center;
     width: 18rem;
+    border-radius:5px;
 }
 
 .ce2{
@@ -48,7 +49,12 @@ input,select{
     transition: transform .1s;
 }
 
+button{
+    border-radius:15px;
+}
+
 button:hover{
-    background-color: green;
+    color: white;
+    background-color:crimson;
     transform: scale(1.15); 
 }

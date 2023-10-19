@@ -26,11 +26,13 @@ h1{
     width: 12rem;
     text-align:left;
     display: flex;
+    border-radius: 5px;
 }
 
 .l2 select{
     width: 15rem;
     text-align: left;
+    border-radius: 5px;
 }
 
 .l2 label{
@@ -47,10 +49,12 @@ h1{
 
 button{
     transition: 0.1s;
+    border-radius: 15px;
+    height: 2rem;
 }
 
 button:hover{
     color: white;
-    background-color: forestgreen;
+    background-color: crimson;
     transform: scale(1.2);
 }
