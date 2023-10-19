@@ -16,17 +16,20 @@ body{
 input{
     width: 20rem;
     text-align:center;
+    border-radius: 15px;
 }
 
 button{
-    width: 10rem;
+    width: 8rem;
     height: 2rem;
     transition: transform .1s;
+    border-radius: 15px;
 }
 
 button:hover{
     transform: scale(1.2);
-    background-color: forestgreen; 
+    background-color: crimson; 
+    color: white;
 }
 
 

@@ -3,7 +3,7 @@ body{
     color: white;
 }
 
-.contenido{
+.contenido {
     text-align: center;
     margin-top: 20rem;
 }
@@ -25,19 +25,20 @@ input:hover{
 }
 
 input:focus{
-    background-color:midnightblue;
+    background-color:crimson;
     color: azure;
 }
 
 button{
     width: 10rem;
     height: 40px;
-    transition: transform:.2s;
+    transition: transform .2s;
     border-radius:20px;
 }
 
 
 button:hover{
-    transform: scale(1.2);
-    background-color: forestgreen;
+    transform: scale(1.15);
+    background-color:crimson;
+    color: white;
 }
