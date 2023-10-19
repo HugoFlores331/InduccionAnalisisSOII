@@ -8,19 +8,29 @@ ul{
     list-style: none;
 }
 
+.izquierda{
+    transition: transform .1s; 
+}
+
+.izquierda:hover{
+    transform: scale(1.2);
+}
+
 .centro{
  display: flex;
- margin-left:300px;
+ margin-left:200px;
+ margin-right:100px;
+ 
 }
 
 .centro li{
     display: inline-flex;
-    margin-left: 120px;
+    margin-left: 100px;
 }
 
 .centro a{
     display: flex;
-    margin-top: 12px;
+    margin-top: 15px;
     color: white;
     text-decoration: none;
     transition: transform .1s;
@@ -33,7 +43,7 @@ ul{
 
 .derecha{
     display: flex;
-    margin-left: 400px;
+    margin-left: 200px;
 }
 
 .derecha img{

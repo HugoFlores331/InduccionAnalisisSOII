@@ -37,7 +37,8 @@ li button{
 }
 
 li button:hover{
-    background-color:azure;
+    background-color:crimson;
+    color: white;
     transform: scale(1.2); 
 }
 .ver{

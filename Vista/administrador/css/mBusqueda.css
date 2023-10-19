@@ -4,6 +4,8 @@ body{
 
 h1{
     color: white;
+    text-align: center;
+    margin-top: 2rem;
 }
 
 ul{
@@ -35,12 +37,13 @@ button{
     justify-content: center;
     border-radius: 2rem;
     transition: transform .1s;
-    background-color:azure;
     
 }
 
 li button:hover{
     transform:scale(1.2); 
+    background-color: crimson;
+    color:white;
 }
 .ver{
     display: flex;
