@@ -1,5 +1,5 @@
 body{
-    background-color:darkgray;
+    background-color:#333;
     color: antiquewhite;
     justify-content: center;
     display:flex;
@@ -7,7 +7,8 @@ body{
 }
 
 .login{
-    
+    background-color: black;
+    border-radius: 2rem;
     display:inline-block;
     text-align: center;
     margin-top: 100px;
@@ -18,7 +19,11 @@ input{
     display:block;
     margin-left:160px;
     margin-top: 20px;
-    border-radius:5px;
+    border-radius:15px;
+}
+
+input:focus{
+    caret-color:red;
 }
 
 button{
@@ -30,7 +35,7 @@ button{
 
 button:hover{
     color: antiquewhite;
-    background-color: black;
+    background-color: crimson;
 }
 
 .olvide{
@@ -41,10 +46,10 @@ button:hover{
 
 a{
     text-decoration: none;
-    color:black;
+    color:white;
     font-size: 15px;;
 }
 
 a:hover{
-    color: white;
+    color: crimson;
 }
