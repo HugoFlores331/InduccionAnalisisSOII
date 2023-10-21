@@ -38,4 +38,16 @@ a{
     transform: scale(1.1);
 }
 
-
+footer {
+    background-color: #333;
+    color: #fff; /* Cambia el color del texto del footer */
+    font-style: italic;
+    text-align: center;
+    padding: 1px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
