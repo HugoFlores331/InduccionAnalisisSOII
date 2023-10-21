@@ -4,6 +4,7 @@ body{
 
 h1{
     color: white;
+    text-align: center;
 }
 
 ul{
@@ -43,4 +44,57 @@ li button:hover{
 .ver{
     display: flex;
     justify-content: center;
+}
+.cbusqueda {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10vh;
+    padding-left: 240px; /* Ajusta el valor de píxeles según tus necesidades */
+}
+ /* Estilos para la tabla */
+ .resultados table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #000;
+    color: white;
+    border: 1px solid #333;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resultados th, .resultados td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #333;
+    font-size:medium
+}
+
+.resultados th {
+    background-color: #333;
+    color: white;
+}
+
+.resultados td {
+    border-bottom: 1px solid #333;
+}
+
+.resultados tr:nth-child(even) {
+    background-color: #222;
+}
+
+.resultados tr:hover {
+    background-color: #444;
+}
+footer{
+    font-style: italic;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
 }
