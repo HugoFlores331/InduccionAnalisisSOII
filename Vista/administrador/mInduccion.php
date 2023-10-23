@@ -16,7 +16,7 @@
 
             <ul class="izquierda">
                 <li>
-                    <a href="mAdmin.html">
+                    <a href="mAdmin.php">
                         <img src="iconos/home.png" width="45">
                     </a>
                 </li>
@@ -24,19 +24,19 @@
 
             <ul class="centro">
                 <li>
-                    <a href="mPuesto.html">
+                    <a href="mPuesto.php">
                         PUESTO
                     </a>
                 </li>
                 
                 <li >
-                    <a href="mInduccion.html">
+                    <a href="mInduccion.php">
                         INDUCCIONES
                     </a>
                 </li>
 
                 <li>
-                    <a href="mEmpleado.html">
+                    <a href="mEmpleado.php">
                         EMPLEADO
                     </a>
                 </li>
@@ -44,7 +44,7 @@
             
             <ul class="derecha">
                 <li>
-                    <a href="../../index.html">
+                    <a href="../../index.php">
                         <img src="iconos/cerrar-sesion.png" width="40">
                     </a>
                 </li>
@@ -55,35 +55,35 @@
             <h1>MENU</h1>
             
             <div class="mi">
-                <a href="mi-1.html">
+                <a href="mi-1.php">
                     <h3>CREAR INDUCCION </h3>
                     <img src="imagenes/crear-induccion.png" width="75%">
                 </a>
             </div>
 
             <div class="mi">
-                <a href="mi-3.html">
+                <a href="mi-3.php">
                     <h3>ASIGNAR INDUCCION A PERSONAL</h3>
                     <img src="imagenes/agregar.png" width="80%">
                 </a>
             </div>
 
             <div class="mi">
-                <a href="mi-2.html">
+                <a href="mi-2.php">
                     <h3>VER INDUCCIONES</h3>
                     <img src="imagenes/ver.png" width="80%">
                 </a>
             </div>
 
             <div class="mi">
-                <a href="mBusqueda.html">
+                <a href="mBusqueda.php">
                     <h3>MOSTRAR INDUCCION DEL PERSONAL</h3>
                     <img src="imagenes/mostrar-personal.jpg" width="80%">
                 </a>
             </div>
 
             <div class="mi">
-                <a href="mAdmin.html">
+                <a href="mAdmin.php">
                     <h3>MENU PRINCIPAL</h3>
                     <img src="iconos/menu.png" width="80%">
                 </a>

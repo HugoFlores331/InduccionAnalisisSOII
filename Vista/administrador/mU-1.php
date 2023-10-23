@@ -11,21 +11,30 @@
     <body>
 
         <header class="barra">
+
+            <ul class="izquierda">
+                <li>
+                    <a href="mAdmin.php">
+                        <img src="iconos/home.png" width="45">
+                    </a>
+                </li>
+            </ul>
+
             <ul class="centro">
                 <li>
-                    <a href="mPuesto.html">
+                    <a href="mPuesto.php">
                         PUESTO
                     </a>
                 </li>
                 
                 <li >
-                    <a href="mInduccion.html">
+                    <a href="mInduccion.php">
                         INDUCCIONES
                     </a>
                 </li>
 
                 <li>
-                    <a href="mEmpleado.html">
+                    <a href="mEmpleado.php">
                         EMPLEADO
                     </a>
                 </li>
@@ -33,7 +42,7 @@
             
             <ul class="derecha">
                 <li>
-                    <a href="../../index.html">
+                    <a href="../../index.php">
                         <img src="iconos/cerrar-sesion.png" width="40">
                     </a>
                 </li>
