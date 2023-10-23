@@ -29,7 +29,7 @@
                 </li>
 
                 <li>
-                    <a href="../index.html">
+                    <a href="../index.php">
                         <button type="button">Validar</button>
                     </a>
                 </li>

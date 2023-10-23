@@ -18,7 +18,7 @@
                     <input type="text" name="n4" id="n4" placeholder="-">
                 </div>
             
-            <a href="newPassword.html">
+            <a href="newPassword.php">
                 <button type="button">Validar Codigo </button>
             </a>
         </section>  

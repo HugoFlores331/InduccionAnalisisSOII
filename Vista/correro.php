@@ -15,7 +15,7 @@
             <input type="email" name="mail" id="mail" placeholder="Correo Electronio">
 
             <div class="btn">
-                <a href="../index.html">
+                <a href="../index.php">
                     <button type="button">Generar</button>
                 </a>
             </div>

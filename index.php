@@ -30,7 +30,7 @@
                 </li>
                 
                 <li>
-                    <a href="Vista/administrador/mAdmin.html">
+                    <a href="Vista/administrador/mAdmin.php">
                         <button type="button">
                             Ingresar
                         </button>
@@ -39,13 +39,13 @@
 
                 <li>
                     <div class="olvide">
-                        <a href="Vista/correro.html">
+                        <a href="Vista/correro.php">
                             <p>Olvide Usuario</p>
                         </a>
                 </li>
 
                 <li>
-                        <a href="Vista/password.html">
+                        <a href="Vista/password.php">
                             <p>Olvide mi Contraseña</p>
                         </a>
                     </div>

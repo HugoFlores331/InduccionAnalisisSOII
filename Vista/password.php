@@ -16,7 +16,7 @@
             <input type="text" name="user" id="user" placeholder="Usuario">
             
             <div class="btn">
-                <a href="token.html">
+                <a href="token.php">
                     <button type="button">Generar Codigo</button>
                 </a>
             </div>
