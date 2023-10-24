@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ROLES</title>
+        <title>Crear Puesto/Empleado</title>
         <link rel="stylesheet" href="css/barraA.css">
         <link rel="stylesheet" href="css/barraB.css">
-        <link rel="stylesheet" href="css/mEmpleado.css">
+        <link rel="stylesheet" href="css/mp-1.css">
     </head>
 
     <body>
@@ -52,22 +50,40 @@
         </header>
 
         <section class="contenido">
-            <h1>MENU</h1>
-            
-            <div class="me">
-                <a href="mp-1-1.php">
-                    <h3>DEPARTAMENTO</h3>
-                    <img src="imagenes/puesto.png" width="75%">
-                </a>
+            <h1>CREAR PUESTO</h1>
+
+
+            <div class="rol">
+                <input type="text" name="rol" id="rol" placeholder="Ingrese Puesto">
             </div>
 
-            <div class="me">
-                <a href="mp-1-2.php">
-                    <h3>PUESTO</h3>
-                    <img src="imagenes/usuario.png" width="72%">
-                </a>
+            <div class="rol">
+                <select name="descripcion" id="descripcion">
+                    <option value="0">SELECIONE DEPARTAMENTO</option>
+                        <?php
+                            include("../../Controlador/conexion.php");
+
+                            $cn = mysqli_connect($servername,$username,$password,$database);
+                            $cn ->real_query("SELECT iddepartamento,descripcion FROM departamento;");
+
+                            $resultado = $cn->use_result();
+
+                            while ($fila = $resultado->fetch_assoc()) {
+                                echo "<option value=" . $fila['iddepartamento'] . ">" . $fila['descripcion'] . "</option>";
+                            }
+                            cn ->close();
+                        ?>
+                </select>
             </div>
 
+            <div class="btn">
+                <a href="mp-2.php">
+                    <button type="button">
+                        <img src="iconos/guardar.png" width="10%">
+                        GUARDAR
+                    </button>
+                </a>
+            </div>
         </section>
 
         <footer class="barraBaja">
@@ -75,5 +91,6 @@
                 <p> PROYECTO DE ANALISIS DE SISTEMAS II </p>
             </div>
         </footer>
+
     </body>
 </html>

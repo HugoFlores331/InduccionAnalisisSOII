@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ROLES</title>
+        <title>Crear Puesto/Empleado</title>
         <link rel="stylesheet" href="css/barraA.css">
         <link rel="stylesheet" href="css/barraB.css">
-        <link rel="stylesheet" href="css/mEmpleado.css">
+        <link rel="stylesheet" href="css/mp-1.css">
     </head>
 
     <body>
@@ -52,22 +50,25 @@
         </header>
 
         <section class="contenido">
-            <h1>MENU</h1>
-            
-            <div class="me">
-                <a href="mp-1-1.php">
-                    <h3>DEPARTAMENTO</h3>
-                    <img src="imagenes/puesto.png" width="75%">
-                </a>
+            <h1>CREAR DEPARTAMENTO</h1>
+
+
+            <div class="rol">
+                <input type="number" name="iddepartamento" id="iddepartamento" placeholder="ID Departamento">
             </div>
 
-            <div class="me">
-                <a href="mp-1-2.php">
-                    <h3>PUESTO</h3>
-                    <img src="imagenes/usuario.png" width="72%">
-                </a>
+            <div class="rol">
+                <input type="text" name="descripcion" id="descripcion" placeholder="Ingrese Departamento">
             </div>
 
+            <div class="btn">
+                <a href="mp-2.php">
+                    <button type="button">
+                        <img src="iconos/guardar.png" width="10%">
+                        GUARDAR
+                    </button>
+                </a>
+            </div>
         </section>
 
         <footer class="barraBaja">
@@ -75,5 +76,6 @@
                 <p> PROYECTO DE ANALISIS DE SISTEMAS II </p>
             </div>
         </footer>
+
     </body>
 </html>
