@@ -145,7 +145,17 @@
                         <li>
                             <select name="puesto" id="puesto">
                                 <option value="0">PUESTO</option>
-                                <option value="1">1.</option>
+                            <?php
+                                include("/Controlador/conexion.php");
+                                $db_conexion = mysqli_connect($servername, $username, $password, $database);
+                                $db_conexion ->real_query("select idPuesto as id, puesto from puestos;");
+                                $resultado = $db_conexion->use_result();
+                                while($fila =$resultado->fetch_assoc()){
+                                    echo"<option value=". $fila['id'] . ">". $fila['puesto']. "</option>";
+                                }
+                                $db_conexion ->close();
+                            ?>
+
                             </select>
                         </li>
 
