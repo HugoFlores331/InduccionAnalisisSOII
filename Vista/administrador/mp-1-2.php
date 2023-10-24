@@ -54,7 +54,7 @@
 
 
             <div class="rol">
-                <input type="text" name="rol" id="rol" placeholder="Ingrese Puesto">
+                <input type="text" name="puestoopt" id="puestopt" placeholder="Ingrese Puesto">
             </div>
 
             <div class="rol">
