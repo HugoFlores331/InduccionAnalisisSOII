@@ -54,7 +54,7 @@
 
 
             <div class="rol">
-                <input type="text" name="rol" id="rol" placeholder="Ingrese Puesto">
+                <input type="text" name="puestoopt" id="puestopt" placeholder="Ingrese Puesto">
             </div>
 
             <div class="rol">
@@ -64,14 +64,14 @@
                             include("../../Controlador/conexion.php");
 
                             $cn = mysqli_connect($servername,$username,$password,$database);
-                            $cn ->real_query("SELECT iddepartamento,descripcion FROM departamento;");
+                            $cn ->real_query("select iddepartamento as id,departamentocol from bd_analisis.departamento;");
 
-                            $resultado = $cn->use_result();
+                            $resultado = $conn->use_result();
 
                             while ($fila = $resultado->fetch_assoc()) {
-                                echo "<option value=" . $fila['iddepartamento'] . ">" . $fila['descripcion'] . "</option>";
+                                echo "<option value=" . $fila['id'] . ">" . $fila['descripcion'] . "</option>";
                             }
-                            cn ->close();
+                            $cn ->close();
                         ?>
                 </select>
             </div>
